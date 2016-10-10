@@ -1,0 +1,14 @@
+1.  d
+2.  a
+3.  bag 1: 2 black balls, bag2: 1 black 1 white balls
+	P(B1|black) = P(black|B1)*P(B1)/P(black)
+	answer = d
+4. P(no red) = 0.45**10, andwer = b
+5. P(no v=0 1000 samps) = P(at least one red)**1000
+                        = (1 - P(no red))**1000
+   answer = 1 - P(no v=0 1000 samps) = c
+6. e
+7. answer in ipynb, b
+8. answer in ipynb, c
+9. answer in ipynb, b
+10. answer in ipynb, b

@@ -1,0 +1,39 @@
+1.  b
+2.  d
+""" For above, see work in ipython notebook """
+3.  h(x) determining f(x) has 2 outcomes:
+	- h(x) == f(x)
+	- h(x) != f(x)
+	each of these has 2 additional outcomes:
+	- y == f(x)
+	- y != f(x)
+
+	The combinations of h(x) incorrectly determines y are:
+	- h(x) == f(x) and y != f(x)
+	- h(x) != f(x) and y == f(x)
+
+	the answer is thus (1 - u)*(1 - lambda) + u*lambda
+
+	e
+4.  "Independent of u means changing the value of u does not effect how well h(x) predict y"
+	P(h(x) incorrectly predy y) = (1 - u)*(1 - lambda) + u*lambda
+								= 1 - lambda - u + 2ulambda
+
+	Find lambda where 1 - lambda - u + 2ulambda = lambda
+		1 - u + 2ulambda = 2lambda
+		u(2lambda - 1) + 1 = 2lambda
+		u(2lambda - 1)/2 + 1/2 = lambda
+
+	lambda = 1/2 *from just trying values
+
+	b
+""" For below, see work in ipython notebook """
+5.  c
+6.  c
+7.  a
+8.  d
+9.  a
+10.  b
+
+
+	
